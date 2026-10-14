@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "guineapigmod",
+  "version": "${version}",
+  "name": "Guinea Pig Mod",
+  "description": "Adds a new Guinea Pig mob with 4 variants",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.klyozzpremium.guineapigmod.GuineaPigMod"
+    ]
+  },
+  "mixins": [
+    "guineapigmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}
